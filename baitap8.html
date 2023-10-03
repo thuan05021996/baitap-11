@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numBer=+prompt("20 dãy số facionn");
+        let a=0;
+        let b=1;
+        let tong=a+b;
+        for(i=0;i<numBer;i++){
+            console.log(tong);
+            tong=a + b;
+            a = b;
+            b = tong;
+        }
+    </script>
+</body>
+</html>
